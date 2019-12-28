@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.QuestionFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+      <TextView
+          android:id="@+id/tv_question_history"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Your Question History"
+          android:layout_marginLeft="15dp"
+          android:textSize="8pt"
+          android:textStyle="bold"
+          android:layout_marginBottom="20dp">
+      </TextView>
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/rv_question"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/tv_question_history">
+      </androidx.recyclerview.widget.RecyclerView>
+
+   </RelativeLayout>
+
+</FrameLayout>

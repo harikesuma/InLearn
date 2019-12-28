@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "800754470119",
+    "firebase_url": "https://inlearn-f0d2c.firebaseio.com",
+    "project_id": "inlearn-f0d2c",
+    "storage_bucket": "inlearn-f0d2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800754470119:android:9b5ffa4cf2852e6595e642",
+        "android_client_info": {
+          "package_name": "com.example.inlearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800754470119-6gmirhoc0haqbu4gdkasem24pp6i8gkf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inlearn",
+            "certificate_hash": "a19ef0dabe3b40ffb371843a57f186efd78226e9"
+          }
+        },
+        {
+          "client_id": "800754470119-dpfqha2mmo9s9b916nv6q6sadegrhert.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpSOitSgyAZpG-FFefQ_YTnMB3_9lxKp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800754470119-dpfqha2mmo9s9b916nv6q6sadegrhert.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

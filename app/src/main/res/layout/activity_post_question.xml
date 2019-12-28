@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal"
+    tools:context=".PostQuestionActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_pict_holder"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:scaleType="fitXY">
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_choose_pict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+        android:text="Choose Photo">
+
+    </com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        style="@style/LoginTextInputLayoutStyle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_question"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Question"
+            android:inputType="textMultiLine">
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:text="Choose Category">
+    </TextView>
+
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/sp_kategori"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp" >
+
+    </androidx.appcompat.widget.AppCompatSpinner>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="Post">
+
+    </com.google.android.material.button.MaterialButton>
+</LinearLayout>
